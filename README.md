@@ -1,6 +1,8 @@
 # GMaps Address Helper
 A JS class to facilitate extracting address info (street, city, etc) from the GMaps Places Autocomplete.
 
+![Demo](https://image.ibb.co/giW7fS/gmaps_address_helper_demo.gif)
+
 ## How to use
 Listen to the `place_changed` event from the Places Autocomplete and pass it to the `GMapsAddressHelper` like so:
 
