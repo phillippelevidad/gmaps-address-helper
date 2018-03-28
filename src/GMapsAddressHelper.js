@@ -57,7 +57,7 @@ GMapsAddressHelper.prototype.extractParts = function () {
 		route: this._extractPart(['route']),
 		streetNumber: this._extractPart(['street_number']),
 		neighborhood: this._extractPart(['sublocality', 'sublocality_level_1']),
-		city: this._extractPart(['administrative_area_level_2', 'locality', 'sublocality_level_1']),
+		city: this._extractPart(['administrative_area_level_2', 'locality']),
 		state: this._extractPart(['administrative_area_level_1']),
 		country: this._extractPart(['country']),
 		zipCode: this._extractPart(['postal_code_prefix', 'postal_code'])
